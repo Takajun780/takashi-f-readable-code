@@ -13,6 +13,12 @@ spec4:
 1. 「recipe-data.txt」ファイルに「親子丼」「杏仁豆腐」を追加しました。
 
 spec6:
-IDはmainメソッドの(コマンドライン)引数で指定する。
-Eclipseで引数を指定して実行する方法は、以下URLを参考にすること。
-http://fernweh.jp/b/main-argument/
+1. IDはmainメソッドの(コマンドライン)引数で指定する。
+   Eclipseで引数を指定して実行する方法は、以下URLを参考にすること。
+   http://fernweh.jp/b/main-argument/
+
+spec7:
+1. 「recipe-data.txt」の仕様変更。
+   レシピ名に引き続き、レシピの説明文を追加する。
+   レシピ名と説明文の間には、半角スペースを1つ設ける。
+   説明文の中に改行は入れないこと。
