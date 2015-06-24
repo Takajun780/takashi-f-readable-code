@@ -4,10 +4,15 @@ Eclipseを使用した場合
 2. Recipe.javaプロジェクトを右クリックしてRun AsからJava Applicationを選択する。
 3. Consoleに「オムライス」と表示される。
 
-spec3: 
+spec3:
 1. 「recipe-data.txt」というファイルをsrcに作成する。
 2. 「recipe-data.txt」に「オムライス」と入力して保存する。
 3. Recipe.javaプロジェクトを右クリックしてRun AsからJava Applicationを選択する。
 
 spec4:
 1. 「recipe-data.txt」ファイルに「親子丼」「杏仁豆腐」を追加しました。
+
+spec6:
+IDはmainメソッドの(コマンドライン)引数で指定する。
+Eclipseで引数を指定して実行する方法は、以下URLを参考にすること。
+http://fernweh.jp/b/main-argument/
