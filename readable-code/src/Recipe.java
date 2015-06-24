@@ -13,20 +13,20 @@ public class Recipe {
 
 	public static void main(String[] args) {
 		List<String> recipeList = new ArrayList<String>();
-		try{
+		try {
 			File recipeFile = new File("src/recipe-data.txt");
 			BufferedReader bufferedReader = new BufferedReader(new FileReader(recipeFile));
 
 			String row;
-			while((row = bufferedReader.readLine()) != null){
+			while((row = bufferedReader.readLine()) != null) {
 				recipeList.add(row);
 			}
 			bufferedReader.close();
 		}
-		catch(FileNotFoundException e){
+		catch (FileNotFoundException e) {
 			System.out.println("ファイルが見つかりませんでした。");
 		}
-		catch(IOException e){
+		catch (IOException e) {
 			System.out.println("ファイルが読み込めませんでした。");
 		}
 		
