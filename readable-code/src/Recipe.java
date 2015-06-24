@@ -46,12 +46,14 @@ public class Recipe {
 			for (int loop = 0; loop < recipeList.size(); loop++) {
 				if (loop == reservedId){
 					System.out.println(loop + ": " + recipeList.get(loop));
+					return;
 				}
 			}
+			System.out.println("指定したIDは存在しません。");
 		}
 		else
 		{
-			System.out.println("IDの指定が正しくありません。");
+			System.out.println("IDの指定数が正しくありません。");
 		}
 
 
