@@ -1,4 +1,10 @@
+spec2:
 Eclipseを使用した場合
 1. PackageExploreで右クリックからimportでJavaProjectを選択して「readable-code」プロジェクトをインポートする。
 2. Recipe.javaプロジェクトを右クリックしてRun AsからJava Applicationを選択する。
 3. Consoleに「オムライス」と表示される。
+
+spec3: 
+1. 「recipe-data.txt」というファイルをsrcに作成する。
+2. 「recipe-data.txt」に「オムライス」と入力して保存する。
+3. Recipe.javaプロジェクトを右クリックしてRun AsからJava Applicationを選択する。
